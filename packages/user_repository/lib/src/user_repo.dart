@@ -1,3 +1,5 @@
+import 'models/models.dart';
+
 abstract class UserRepository{
 
 
@@ -9,3 +11,4 @@ abstract class UserRepository{
   Future<void>logOut();
 
 }
+
